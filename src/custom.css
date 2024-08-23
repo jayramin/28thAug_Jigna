@@ -1,0 +1,30 @@
+#seatMap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    max-width: 500px;
+    margin: 20px auto;
+  }
+  
+  .seat {
+    width: 50px;
+    height: 50px;
+    background-color: lightblue;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .booked {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  .box{
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(251 251 251);
+    border-radius: 5px;
+    box-shadow: 2px 2px 15px rgb(205, 203, 203);
+  }
